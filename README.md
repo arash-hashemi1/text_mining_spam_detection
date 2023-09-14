@@ -14,5 +14,5 @@ This repository trains machine learning models for spam detection tasks:
 - In your terminal, run `export PYTHONPATH=$PYTHONPATH:$(pwd)` to add the current directory to your `PYTHONPATH`.
 - Run `python src/train.py 'data/spam.csv' <model_name>` to train the selected model and save both the model and vectorizer as <model_name>_trained and 'vect_trained'
 
-*Note*: for <model_name>, you should choose one of the following: 'logistic_regression', 'svm', 'multinomial_nb'
+### Note: for <model_name>, you should choose one of the following: 'logistic_regression', 'svm', 'multinomial_nb'
 - Run 'python src/model_eval.py' to load the provided save models, and create the accuracy and AUC metrics on test data. 
